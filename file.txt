@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telegram-like Neutral WebApp</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="../image/icon.png" alt="Avatar" class="avatar">
+      <h1>Homework</h1>
+      <p>Just open it and see what homework you have — nothing more, nothing less. </p>
+      
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="search" placeholder="Search" />
+    </div>
+
+    <h2>Subjects</h2>
+    <div class="work-list">
+      <div class="work-card">
+        <p class="work-avatar" data-date="2023-09-05"> 🎨 </p>
+        <div class="work-info">
+          <p class="work-name">Компьютерная графика</p>
+          <p class="work-time"></p>
+        </div>
+      </div>
+      <div class="work-card">
+        <img src="https://via.placeholder.com/40" class="work-avatar">
+        <div class="work-info">
+          <p class="work-name">Информационные технологии</p>
+          <p class="work-time"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
